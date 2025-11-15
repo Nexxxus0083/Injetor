@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Permite acesso sem sandbox -->
+    <key>com.apple.private.security.no-sandbox</key>
+    <true/>
+    
+    <!-- Permite pular validação de bibliotecas -->
+    <key>com.apple.private.skip-library-validation</key>
+    <true/>
+    
+    <!-- Permite acesso a status de memória -->
+    <key>com.apple.private.memorystatus</key>
+    <true/>
+    
+    <!-- Permite execução como aplicação de plataforma -->
+    <key>platform-application</key>
+    <true/>
+    
+    <!-- Permite task_for_pid (essencial para injeção de memória) -->
+    <key>task_for_pid-allow</key>
+    <true/>
+    
+    <!-- Permite acesso a processos do sistema -->
+    <key>com.apple.system-task-ports</key>
+    <true/>
+    
+    <!-- Permite execução em background -->
+    <key>com.apple.developer.kernel.extended-virtual-addressing</key>
+    <true/>
+</dict>
+</plist>
